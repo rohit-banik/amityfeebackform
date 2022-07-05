@@ -8,43 +8,81 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Feedback Form</h1>
-    <p>
-      We would love to hear your thoughts, suggestions, concerns or problems so
-      we can improve
-    </p>
 
-    <form action="" method="post">
-      <div class="row">
-        <label for="type">Feedback Type</label>
-      </div>
-      <div class="row">
-        <input type="radio" name="type" id="type" /> Comments
-        <input type="radio" name="type" id="type" /> Suggestions
-        <input type="radio" name="type" id="type" /> Questions
-      </div>
 
-      <div class="row">
-        <label for="feedback-box">Write your Feedback</label>
-        <textarea
-          name="feedback-box"
-          id="feedback-box"
-          cols="100"
-          rows="20"
-          placeholder="Enter your Feedback"
-        ></textarea>
-      </div>
-      <div class="row">
-        <label for="name">Name</label>
-        <input type="text" id="fname" placeholder="First Name" />
-        <input type="text" id="lname" placeholder="Last Name" />
-      </div>
-      <div class="row">
-        <label for="email">E-mail</label>
-        <input type="email" id="email" placeholder="example@abcd.com" />
-      </div>
+    <table>
+     
+        <tr class="heading">
+        <td colspan="2">
+          <h1>Feedback Form</h1>
+        </td>
+      </tr>
+     
+      <tr>
+        <td colspan="2">
+          <p>
+            We would love to hear your thoughts, suggestions, concerns or
+            problems so we can improve
+          </p>
+        </td>
+      </tr>
 
-      <input type="submit" value="Submit Feedback" />
-    </form>
+        <form action="" method="post">
+            <tr class="form">
+              <td>
+                <label for="type">Feedback Type</label>
+              </td>
+              <td class="radio">
+                <input type="radio" name="type" id="type" > Comments
+                <input type="radio" name="type" id="type" > Suggestions
+                <input type="radio" name="type" id="type" > Questions
+              </td>
+            </tr>
+    
+            <tr class="form">
+              <td>
+                <label for="feedback-box">Write your Feedback</label>
+              </td>
+              <td>
+                <textarea
+                  name="feedback-box"
+                  id="feedback-box"
+                  cols="60"
+                  rows="10 "
+                  placeholder="Enter your Feedback"
+                ></textarea>
+              </td>
+            </tr>
+    
+            <tr class="form">
+              <td>
+                <label for="name">Name</label>
+              </td>
+              <td>
+                <input type="text" id="fname" placeholder="First Name" />
+                <input type="text" id="lname" placeholder="Last Name" />
+              </td>
+            </tr>
+    
+            <tr class="form">
+              <td>
+                <label for="email">E-mail</label>
+              </td>
+              <td>
+                <input type="email" id="email" placeholder="example@abcd.com" />
+              </td>
+            </tr>
+    
+            <tr class="form">
+              <td></td>
+              <td>
+                <input type="submit" value="Submit Feedback" />
+              </td>
+            </tr>
+        
+        </form>
+    
+    </table>
+
   </body>
 </html>

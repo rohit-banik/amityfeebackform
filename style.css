@@ -1,8 +1,21 @@
 *{
     font-family: Roboto;
 }
+
+body{
+    background: url('https://insightshub.kapiche.com/content/images/2021/08/AdobeStock_249557079.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+    width: 95vw;
+}
+
 h1{
     font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 10px;
     margin-bottom: -20px;
 }
 
@@ -10,26 +23,73 @@ p{
     font-size: 20px;
 }
 
+table, th, td{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    width: 50%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+.form td{
+    vertical-align: top;
+    padding: 20px;
+    border-bottom: 1px solid #d2fff0;
+}
+
 form{
     text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.form{
+    background: #aaa2dd59;
+    color: black;
 }
 
 label{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
+input[type=radio]{
+    margin-bottom: 20px;
 }
-
-.col{
-    display: flex;
-    flex-direction: column;
-}
-
 .radio{
-    display: flex;
-    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+input[type=text]{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+input[type=submit]{
+    background: linear-gradient(to right, #00635e, #005e3e);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+input[type=submit]:hover{
+    background: transparent;
+    color: #005e3e;
+    border: 2px solid #005e3e;
+}
+
+input, textarea{
+    padding: 10px;
+    font-size: 20px;
+}
+
+textarea{
+    margin-bottom: 20px;
+}
+
+.heading{
+    background: rgb(149, 255, 149);
 }
