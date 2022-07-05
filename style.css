@@ -1,0 +1,35 @@
+*{
+    font-family: Roboto;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: -20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-evenly;
+}
